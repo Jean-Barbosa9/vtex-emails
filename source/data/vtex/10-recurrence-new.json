@@ -1,0 +1,79 @@
+{
+    "id": "0BA33EA4DCE5417EAFF3CB097366D5BD",
+    "customerId": "fred.santos@bol.com.br",
+    "packageGroup": "5CB659EC5003E4952ECCC822187D927D",
+    "item": {
+        "sku": {
+            "id": "18",
+            "name": "Ração para peixe",
+            "productName": "Ração para peixe",
+            "priceAtSubscriptionDate": 0,
+            "currencySymbol": "R$",
+            "imageUrl": "http://recorrenciaqa.vteximg.com.br/arquivos/ids/155392-55-55/AlconKOI.jpg?v=635918402228600000",
+            "nameComplete": "Ração para peixe"
+        },
+        "quantity": 1,
+        "endpoint": null
+    },
+    "plan": {
+        "frequency": {
+            "periodicity": "WEEKLY",
+            "interval": 1
+        },
+        "startDate": "2018-05-18T00:00:00",
+        "endDate": "2018-05-20T00:00:00",
+        "type": "RECURRING_PAYMENT"
+    },
+    "status": "ACTIVE",
+    "customerProfile": {
+        "userId": "965ae4f7-8b8f-4d91-9dc9-9d8a82941ea8",
+        "profileId": "b0c4ad31-a28f-11e5-948e-0a3a1a75213f",
+        "name": "Freds Da Bahia",
+        "email": "fred.santos@bol.com.br",
+        "phone": null
+    },
+    "shippingAddress": {
+        "id": "-1450117329374",
+        "street": "Rua Conde de Irajá",
+        "number": "97",
+        "complement": "302",
+        "neighborhood": "Botafogo",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "country": "BRA",
+        "postalCode": "22271-020",
+        "reference": null,
+        "formattedAddress": null,
+        "additionalComponents": null,
+        "geoCoordinate": null,
+        "receiverName": "Freds Da Bahia",
+        "addressType": "residential"
+    },
+    "accountName": "recorrenciaqa",
+    "createdAt": "2018-05-02T20:57:58.725532Z",
+    "lastUpdate": "2018-05-02T20:57:58.725532Z",
+    "purchaseSettings": {
+        "purchaseDay": "Sunday",
+        "paymentMethod": {
+            "paymentSystem": null,
+            "paymentSystemName": null,
+            "paymentAccount": {
+                "accountId": "F6C577CC102249F0BB171360BF02E0E1",
+                "paymentSystem": "2",
+                "paymentSystemName": "Visa",
+                "cardNumber": "************1111",
+                "bin": "444433"
+            }
+        },
+        "seller": "1",
+        "salesChannel": "1"
+    },
+    "originalOrderId": null,
+    "schedule": {
+        "scheduleId": "C033D8302CF749BFA803A8D379173D9A",
+        "cronExpression": "0 0 * * 0",
+        "enviroment": "ALPHA"
+    },
+    "nextPurchaseDate": "0001-01-01T00:00:00",
+    "instances": []
+}

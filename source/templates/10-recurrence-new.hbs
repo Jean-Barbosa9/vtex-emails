@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+  <!-- partial:partials/recurrence-html-head.hbs --><!-- partial -->
+	<body>
+		<table id="body-table" width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td align="center" valign="top">
+					<table class="w-100 mw6-5 mv4-ns bg-white" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+
+            <!-- Header -->
+            <tr>
+              <td class="w-100 ph4-ns pv4 bb b--light-gray tc">
+                <h1>Assinatura gerada com sucesso!</h1>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="ph4-ns pv3 bt b--light-gray">
+                <p>
+                  ((i18n.common.hi)), {{customerProfile.name}}.
+                </p>
+                <p>
+                  Obrigado por registrar uma ssinatura em nossa loja. Você pode acompanhá-la e reconfigurá-la através do nosso site.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-100 ph4-ns pv4 bt bb b--light-gray bw3">
+                <h3 class="mt0">Resumo da Assinatura</h3>
+                <table class="w-100 mw6-5 mv2-ns bg-white" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td>
+                      <h5>Número da Assinatura</h5>
+                      <div class="mb3 mt1">{{schedule.scheduleId}}</div>
+                    </td>
+                    <td>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h5>Refazer pedido</h5>
+                      <div class="mt1">{{plan.frequency.periodicity}}</div>
+                    </td>
+                    <td>
+                      <h5>Dia de cobrança</h5>
+                      <div class="mt1">{{purchaseSettings.purchaseDay}}</div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-100 ph4-ns pv4 bt bb b--light-gray bw3">
+                <h3 class="mt0">Produtos</h3>
+                <table class="w-100 mw6-5 mv2-ns bg-white" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td class="v-top pv2 w3 pr2"><img alt="" src="{{item.sku.imageUrl}}" /></td>
+                    <td class="v-top pv2">
+                      <div class="f5 lh-title mv1-ns">{{item.sku.name}}</div>
+                      <div class="gray">
+                        {{item.quantity}} ((i18n.common.units))
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-100 ph4-ns pv4 bt bb b--light-gray bw3">
+                <h3 class="mt0">Pagamento</h3>
+                <div class="mv2-ns">
+                  <h5>{{purchaseSettings.paymentMethod.paymentSystemName}}.</h5>
+                  <div>{{purchaseSettings.paymentMethod.paymentAccount.cardNumber}}</div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-100 ph4-ns pv4 bt bb b--light-gray bw3">
+                <h3 class="mt0">Entrega</h3>
+                <div class="mv2-ns">
+                  {{#with shippingAddress}}
+                  <h5>Endereço</h5>
+                  <div>{{street}} {{number}}, {{complement}}</div>
+                  <div>{{neighborhood}} - {{city}} - {{state}}</div>
+                  <div>{{postalCode}}</div>
+                  {{/with}}
+                </div>
+              </td>
+            </tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
