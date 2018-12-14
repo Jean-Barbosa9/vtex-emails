@@ -1,0 +1,353 @@
+{
+	"package": null,
+	"subjectItemAttachment": {
+		"item": "Nome do item resumido...",
+		"totalItems": 1
+	},
+	"items": [
+		{
+			"additionalInfo": {
+				"dimension": {
+					"cubicweight": 1.275,
+					"height": 5,
+					"length": 34,
+					"weight": 800,
+					"width": 45
+				},
+				"categoriesIds": "/172/288/289/",
+				"productClusterId": "151,186,187,189,202,214,226,231,281,304,312,323,327,328,340,345,353,358,361,363,365,366,367,369,370,378,379,386,392,410",
+				"commercialConditionId": "1",
+				"brandName": "Nome da Marca",
+				"brandId": "2000053",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "155212003",
+			"priceValidUntil": "2020-12-31T21:30:00Z",
+			"ean": "7909069674975",
+			"commission": 0,
+			"freightCommission": 0,
+			"uniqueId": "BB1A271348D94F54880062F941CAD339",
+			"id": "155212003",
+			"productId": "155212",
+			"refId": "1552121507M",
+			"name": "Nome completo do produto com especificações",
+			"skuName": "Nome completo do sku",
+			"modalType": null,
+			"tax": 0,
+			"price": 22490,
+			"listPrice": 22490,
+			"manualPrice": null,
+			"sellingPrice": 11245,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/172/288/289/",
+			"productCategories": {
+				"168": "Nome categoria 1",
+				"172": "Nome categoria 2",
+				"173": "Nome categoria 3",
+				"288": "Nome categoria 4",
+				"289": "Nome categoria 5"
+			},
+			"defaultPicker": null,
+			"handlerSequence": 0,
+			"handling": false,
+			"quantity": 1,
+			"seller": "1",
+			"imageUrl": "url da imagem do SKU",
+			"detailUrl": "link do produto",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"itemAttachment": {
+				"name": null,
+				"content": {}
+			},
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "discount@price-discount_nome-da-loja_40#fb4efb82-0f70-46b1-ab44-928d5afb59dd",
+					"value": -11245,
+					"rawValue": -112.45,
+					"isPercentual": false,
+					"identifier": "nome_do_desconto"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1
+		}
+	],
+	"paymentData": {
+		"giftCards": [],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "8BE04B013F134DD0A600832AAD1E70E8",
+				"merchantName": "Nome da loja",
+				"payments": [
+					{
+						"id": "6813D5E443A44C10A932F4C2BEB087AF",
+						"paymentSystem": "4",
+						"paymentSystemName": "Mastercard",
+						"value": 12993,
+						"installments": 2,
+						"connectorResponses": {},
+						"referenceValue": 12993,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": "123456",
+						"lastDigits": "9876",
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": null,
+						"koinUrl": null,
+						"tid": null,
+						"redemptionCode": null,
+						"giftCardId": null,
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"group": "creditCard",
+						"dueDate": null,
+						"accountId": "9AF9BA8335CE4AADB5833B22618A60AD",
+						"parentAccountId": "9AF9BA8335CE4AADB5833B22618A60AD"
+					}
+				]
+			}
+		]
+	},
+	"giftRegistryData": null,
+	"receiptData": null,
+	"marketPlaceOrderId": "",
+	"sellerOrderId": "id do pedido no seller",
+	"orderFormId": null,
+	"sequence": "1115025",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "07c3ec31-e8cb-4a86-a990-2d133e4ab8cc",
+	"userProfileId": "251e67c4-09aa-43bf-8f1f-c9ef129d3468",
+	"hostName": "lojaklin",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"orderId": "id do pedido no OMS",
+	"orderGroup": "grupo do pedido no OMS",
+	"state": "cancel",
+	"isCheckedIn": false,
+	"storeId": null,
+	"value": 12993,
+	"sellers": [
+		{
+			"id": "1",
+			"name": "nome do seller",
+			"logo": ""
+		}
+	],
+	"totals": [
+		{
+			"id": "Items",
+			"name": "Total dos Itens",
+			"value": 22490
+		},
+		{
+			"id": "Discounts",
+			"name": "Total dos Descontos",
+			"value": -11245
+		},
+		{
+			"id": "Shipping",
+			"name": "Total do Frete",
+			"value": 1748
+		},
+		{
+			"id": "Tax",
+			"name": "Total da Taxa",
+			"value": 0
+		}
+	],
+	"clientProfileData": {
+		"attachmentId": "clientProfileData",
+		"email": "email-do-cliente@teste.com.br-2b.ct.vtex.com.br",
+		"firstName": "João",
+		"lastName": "Silva",
+		"document": "12345678900",
+		"documentType": "cpf",
+		"phone": "+5511987654321",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": null,
+		"corporatePhone": null,
+		"isCorporate": false
+	},
+	"ratesAndBenefitsData": {
+		"attachmentId": "ratesAndBenefitsData",
+		"rateAndBenefitsIdentifiers": [
+			{
+				"id": "id_do_desconto",
+				"name": "PROMOÇÃO 50%",
+				"featured": true,
+				"description": "PROMOÇÃO 50%"
+			}
+		],
+		"teaser": []
+	},
+	"shippingData": {
+		"attachmentId": "shippingData",
+		"address": {
+			"addressType": "residential",
+			"receiverName": "João Silva",
+			"addressId": "f2195812342d4c07806d2561f41d87a6",
+			"postalCode": "01011-222",
+			"city": "Guarulhos",
+			"state": "SP",
+			"country": "BRA",
+			"street": "Avenida Santos Dumont",
+			"number": "0101",
+			"neighborhood": "Cidade Industrial Satélite de São Paulo",
+			"complement": "Bloco A",
+			"reference": null,
+			"geoCoordinates": []
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"selectedSla": "Expressa",
+				"slas": [
+					{
+						"id": "Normal",
+						"name": "Normal",
+						"deliveryIds": [
+							{
+								"courierId": "60",
+								"warehouseId": "1_1",
+								"dockId": "1_1_1",
+								"courierName": "PAC",
+								"quantity": 1
+							}
+						],
+						"shippingEstimate": "7bd",
+						"shippingEstimateDate": null,
+						"lockTTL": "6d",
+						"availableDeliveryWindows": [],
+						"deliveryWindow": null,
+						"price": 1217,
+						"listPrice": 1217,
+						"tax": 0
+					},
+					{
+						"id": "Expressa",
+						"name": "Expressa",
+						"deliveryIds": [
+							{
+								"courierId": "61",
+								"warehouseId": "1_1",
+								"dockId": "1_1_1",
+								"courierName": "SEDEX",
+								"quantity": 1
+							}
+						],
+						"shippingEstimate": "4bd",
+						"shippingEstimateDate": null,
+						"lockTTL": "6d",
+						"availableDeliveryWindows": [],
+						"deliveryWindow": null,
+						"price": 1748,
+						"listPrice": 1748,
+						"tax": 0
+					}
+				],
+				"shipsTo": [
+					"BRA"
+				],
+				"itemId": "155212003"
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressType": "residential",
+				"receiverName": "João Silva",
+				"addressId": "f2195812342d4c07806d2561f41d87a6",
+				"postalCode": "01001000",
+				"city": "Guarulhos",
+				"state": "SP",
+				"country": "BRA",
+				"street": "Avenida Santos Dumont",
+				"number": "0201",
+				"neighborhood": "Cidade Industrial Satélite de São Paulo",
+				"complement": "Bloco B",
+				"reference": null,
+				"geoCoordinates": []
+			}
+		]
+	},
+	"clientPreferencesData": {
+		"attachmentId": "clientPreferencesData",
+		"locale": "pt-BR",
+		"optinNewsLetter": true
+	},
+	"marketingData": null,
+	"storePreferencesData": {
+		"countryCode": "BRA",
+		"checkToSavePersonDataByDefault": false,
+		"templateOptions": {
+			"toggleCorporate": false
+		},
+		"timeZone": "E. South America Standard Time",
+		"currencyCode": "BRL",
+		"currencyLocale": 1046,
+		"currencySymbol": "R$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"changeData": null,
+	"salesChannel": "1",
+	"followUpEmail": "0b01387defe84532b986f7e124c99880@ct.vtex.com.br",
+	"creationDate": "2016-03-18T22:28:28.6301693Z",
+	"lastChange": "2016-03-19T01:39:14.2650826Z",
+	"timeZoneCreationDate": "2016-03-18T19:28:28.6301693",
+	"timeZoneLastChange": "2016-03-18T22:39:14.2650826",
+	"isCompleted": true,
+	"merchantName": null,
+	"userType": "callCenterOperator",
+	"roundingError": 0,
+	"_accountInfo": {
+		"HostName": "hostname",
+		"MainAccountName": "nomePrincipalConta",
+		"IsPersisted": true,
+		"IsRemoved": false,
+		"Id": "64f93ccd-c192-4bd0-bc47-e3d85c876c43",
+		"Cnpj": "11111111111111",
+		"CompanyName": "Nome da Companhia no Admin Vtex",
+		"TradingName": "nome da marca",
+		"AccountName": "nome da conta",
+		"DefaultUrl": null,
+		"Address": "",
+		"Number": "",
+		"Complement": "",
+		"District": "",
+		"City": "",
+		"State": "",
+		"PostalCode": "",
+		"Country": "",
+		"Telephone": "11 2233 4455",
+		"IsActive": true,
+		"Sponsor": "d7108b76-fc27-4f97-bed6-29c5aa3e926f",
+		"Logo": "logo-loja.jpg",
+		"AppId": "c10a00a0-7590-4b18-8abc-5a60acdafdd7",
+		"IsOperating": true,
+		"LV": "LV-123",
+		"Sigla": null
+	}
+}
